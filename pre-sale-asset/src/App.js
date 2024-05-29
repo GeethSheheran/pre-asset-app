@@ -1,7 +1,8 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Home from './Pages/Home';
 import Navbar from './Pages/Navbar';
+import { useState } from 'react';
 
 function App() {
   const [value, setValue] = useState(20);
@@ -9,7 +10,9 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
+      <Navbar/>
+      <Home/>
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -22,9 +25,9 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
     </div>
-    </>
+    
   );
 }
 

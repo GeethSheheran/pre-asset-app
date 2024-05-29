@@ -2,8 +2,8 @@ import React, { useRef, useEffect, useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import './Navbar.css';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
-import { connectToMetamask, connectToTrustWallet } from '../Components/WalletConnect';
-import WalletModal from '../Components/WalletModal';
+import { connectToMetamask, connectToTrustWallet } from '../components/WalletConnect';
+import WalletModal from '../components/WalletModal';
 
 function Navbar({ openModal }) {
   const navRef = useRef();

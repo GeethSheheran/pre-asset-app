@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const ProgressBarContainer = styled.div`
   width: 100%;
-  margin: 20px 0;
+  margin: 0;
 `;
 
 const ProgressBarTrack = styled.div`
@@ -46,7 +46,7 @@ const ProgressBar = ({ value, maxValue }) => {
 
   return (
     <ProgressBarContainer>
-      <h1  style={{ color:'#fff', textAlign: 'center'}}>$AVV PRESALE</h1>
+      <h1  style={{ color:'#fff', textAlign: 'center',marginBottom: '50px'}}>$AVV PRESALE</h1>
       <ValueContainer>
         <div><BoldValue>0</BoldValue> Investors</div>
         <div><BoldValue>0</BoldValue> USDT Raised</div>

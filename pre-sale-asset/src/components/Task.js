@@ -6,6 +6,8 @@ const TaskContainer = styled.div`
   display: flex;
   align-items: center;
   margin-top:50px;
+  margin-left:15%;
+  margin-right:15%;
 `;
 
 const StepLabel = styled.div`
@@ -38,10 +40,10 @@ const Task = () => {
   return (
     <TaskContainer>
       <StepLabel>1</StepLabel>
-      <span style={{ color:'#76c7c0'}}>connect vollet</span>
+      <p style={{ color:'#76c7c0'}}>connect vollet</p>
       <hr style={{ flex: 1, margin: '0 10px', opacity: '20%' }} />
       <StepLabel2>2</StepLabel2>
-      <span style={{ color:'#fff', opacity: '80%'}}>connect vollet</span>
+      <p style={{ color:'#fff', opacity: '80%'}}>connect vollet</p>
     </TaskContainer>
   );
 }

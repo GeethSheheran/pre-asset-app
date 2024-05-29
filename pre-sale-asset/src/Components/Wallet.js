@@ -2,8 +2,8 @@
 
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
-import { connectToMetamask, connectToTrustWallet } from '../Components/WalletConnect';
-import WalletModal from '../Components/WalletModal';
+import { connectToMetamask, connectToTrustWallet } from './WalletConnect';
+import WalletModal from './WalletModal';
 
 const Wallet = () => {
 
@@ -98,7 +98,9 @@ const Container = styled.div`
   background-color: #121212;
   color: white;
   padding: 20px;
-
+  width:60%;
+  margin: 0 auto;
+  border-radius: 10px;
   @media (max-width: 768px) {
     padding: 10px;
   }
